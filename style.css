@@ -1,0 +1,26 @@
+body{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+button{
+    color: crimson;
+    border: none;
+    font-weight: bold;
+    background: none;
+}
+
+button.fat{
+    color: white;
+    background-color: crimson;
+}
+
+#footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.hide{
+    display: none;
+}

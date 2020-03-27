@@ -3,34 +3,7 @@
     <head>
         <meta charset="UTF-8"> 
         <title>Casa Criativa</title>
-        <style>
-            body{
-                background-color: whitesmoke;
-                color: black;
-                text-align: center;
-            }
-
-            button{
-                color: crimson;
-                border: none;
-                font-weight: bold;
-                background: none;
-            }
-
-            button.fat{
-                color: white;
-                background-color: crimson;
-            }
-
-            #footer a {
-                color: black;
-                text-decoration: none;
-            }
-
-            .hide{
-                display: none;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <img src="logo.png" alt="Imagem da Logomarca">
@@ -52,15 +25,6 @@
         <p id="footer">
             Com ♥️ <a href="http://rocketseat.com.br">Rocketseat</a>
         </p>
-        <script>
-            document
-                .querySelector('button.fat')
-                .addEventListener('click',function(){
-                    document
-                        .querySelector('#footer')
-                        .classList
-                        .toggle('hide')
-                })
-        </script>
+        <script src="scripts.js"></script>
     </body>
 </html>
