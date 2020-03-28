@@ -1,8 +1,7 @@
-document
-    .querySelector('button.fat')
-    .addEventListener('click',function(){
-        document
-            .querySelector('#footer')
+function onOFF() {
+    document
+            .querySelector('#modal')
             .classList
             .toggle('hide')
-    })
+    
+}
